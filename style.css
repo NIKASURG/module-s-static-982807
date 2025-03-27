@@ -1,0 +1,139 @@
+body,
+html {
+  height: 100%;
+}
+body {
+    cursor: url('img/plane.png'),auto;
+  }
+  
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0px;
+}
+.lK {
+    height: 60vw;
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    /* width: 100vw; */
+       margin-left: auto;
+  z-index: 50;
+  }
+.back {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+     margin-left: auto;
+z-index: -1;
+}
+
+.main {
+  /* display: block;
+     */
+     z-index: 10;
+     margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  width: 90%;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  width: 1160.58px;
+  height: 50px;
+  /* Top:50px; */
+
+  margin-top: 50px;
+  left: 140.92px;
+  border: 1px;
+}
+.logo {
+  width: 114.91px;
+  height: 33.99px;
+  top: 48.7px;
+  left: 140.92px;
+  font-weight: 900;
+}
+.ds{
+    margin-left: 20px;
+}
+.nav {
+  margin: 30px;
+  margin-left: 300px;
+}
+.findMore {
+  border-radius: 12px;
+  background-color: rgba(241, 165, 1, 1);
+  /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  padding: 14px 40px;
+  cursor: pointer;
+  box-shadow: 0 1px 50px 0 rgba(241, 165, 1, 0.5),
+    0 6px 0px 0 rgba(241, 165, 1, 1.19);
+}
+.loginBtn{
+    margin-right: 100px;
+}
+.play {
+  border-radius: 50%;
+  background-color: rgba(223, 105, 81, 1);
+  /* Green */
+  height: 50px;
+  width: 50px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  /* padding: 14px 40px; */
+  cursor: pointer;
+  box-shadow: 0 1px 50px 0 rgba(223, 105, 81, 1),
+    0 6px 0px 0 rgba(223, 105, 81, 1);
+}
+.s{
+    margin-left: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h1 {
+  font-size: 84px;
+  color: rgba(24, 30, 75, 1);
+}
+.singUp{
+    background-color: rgba(240, 248, 255, 0);
+    border-color: black;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+.demo{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+.good{
+    display: flex;
+}
+h4{
+    color: rgba(223, 105, 81, 1);
+    text-transform: uppercase;
+}
+#offer{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
